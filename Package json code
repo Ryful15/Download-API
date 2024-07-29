@@ -1,0 +1,35 @@
+json
+{
+  "name": "download-api",
+  "version": "1.0.0",
+  "description": "This API allows you to download videos from a specified URL by interacting with the 'ssvid.net' website to fetch the highest available video quality up to 1080p.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryful15/Download-API.git"
+  },
+  "keywords": ["download", "api", "video", "ssvid"],
+  "author": "Ryful15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryful15/Download-API/issues"
+  },
+  "homepage": "https://github.com/Ryful15/Download-API#readme",
+  "dependencies": {
+    "emoji-regex": "^8.0.0",
+    "ansi-regex": "^5.0.1",
+    "buffer-crc32": "^0.2.13",
+    "fd-slicer": "^1.1.0",
+    "is-fullwidth-code-point": "^3.0.0",
+    "pend": "^1.2.0",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
